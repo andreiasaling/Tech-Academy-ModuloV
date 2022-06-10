@@ -85,7 +85,7 @@ form {
     margin-top: 20px;
 }
 
-form input {
+form input, select{
     width: 380px;
     padding-left: 15px;
     font-size: 18px;
@@ -162,13 +162,29 @@ main .container-main img{
     margin-bottom:0px;
 }
 
-.desafio {
-    font-size: 100px;
+.formulario{
     display: flex;
+    flex-direction: column;
     justify-content: center;
-    height:400px;
     align-items: center;
-    border: 1px solid black;
     margin: 100px auto;
     max-width: 980px;
+}
+.formulario-options form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+textarea{
+    font-family: sans-serif;
+    width: 380px;
+    padding-left: 15px;
+    padding-top: 15px;
+    font-size: 18px;
+    height: 150px;
+    margin-bottom: 13px;
+    border-radius: 25px;
+    border: 2px solid #0080ed;    
 }
